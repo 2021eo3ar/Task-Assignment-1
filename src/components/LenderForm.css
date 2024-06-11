@@ -1,0 +1,170 @@
+/* LenderForm.css */
+
+.form-container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 90px auto;
+    font-size: 16px;
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .form-header h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-row .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  .form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-checkbox input {
+    margin-right: 10px;
+  }
+  
+  .form-checkbox label {
+    color: #555;
+  }
+  
+  .form-checkbox a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-button:hover {
+    background-color: #218838;
+  }
+  
+  .form-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  .form-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional styles for form-info */
+  .form-info {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #007bff00;
+    border-radius: 5px;
+    color: #fff;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .form-container {
+      padding: 20px 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 20px 20px;
+      margin: 20px;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .form-row .form-group {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .form-row .form-group:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 15px;
+      margin: 15px;
+    }
+  }
+  
